@@ -1,0 +1,8 @@
+Django==4.0.3
+djangorestframework==3.13.1
+drf-spectacular==0.21.2
+Pillow==9.0.1
+opencv-python==4.5.5.64
+python-dotenv==0.19.2
+celery==5.2.3
+redis==4.1.4
