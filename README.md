@@ -2,11 +2,11 @@
 Photo album Django+DRF
 Для запуска проекта:
 
-git clone https://github.com/katebaluho/photoalbum.git\n
-проверить нахождениe в виртуальном окружении\n
-установить зависимости pip install -r requirements.txt\n
-python manage.py makemigrations\n
-python manage.py migrate\n
+git clone https://github.com/katebaluho/photoalbum.git
+проверить нахождениe в виртуальном окружении
+установить зависимости pip install -r requirements.txt
+python manage.py makemigrations
+python manage.py migrate
 
 Создать файл в корне проекта '.env'
 Поместить в него информацию:
