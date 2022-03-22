@@ -27,7 +27,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG") == "True"
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -161,3 +161,6 @@ DEFAULT_FROM_EMAIL = '7899katerina@gmail.com'
 
 CELERY_BROKER = os.getenv("CELERY_BROKER")
 CELERY_BACKEND = os.getenv("CELERY_BACKEND")
+
+import django_on_heroku
+django_on_heroku.settings(locals())
