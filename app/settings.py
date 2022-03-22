@@ -161,3 +161,6 @@ DEFAULT_FROM_EMAIL = '7899katerina@gmail.com'
 
 CELERY_BROKER = os.getenv("CELERY_BROKER")
 CELERY_BACKEND = os.getenv("CELERY_BACKEND")
+
+import django_on_heroku
+django_on_heroku.settings(locals())
